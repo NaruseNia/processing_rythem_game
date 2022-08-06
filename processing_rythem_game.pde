@@ -136,7 +136,8 @@ class Game {
         textAlign(LEFT);
         textSize(25);
         text(String.format("tick:%02d(%d)", TickManager.now() % 30, TickManager.now()), 20, 40);
-        text(String.format("score:%06d", point), 20, 85);
+        textSize(45);
+        text(String.format("SCORE:%06d", point), 20, 85);
         break;
       default : break;
     }
